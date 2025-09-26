@@ -1,0 +1,66 @@
+# =========================
+# OS / System Files
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# =========================
+# Logs
+# =========================
+*.log
+*.out
+*.err
+
+# =========================
+# Docker
+# =========================
+*.pid
+*.seed
+*.bak
+docker-compose.override.yml
+.env
+
+# =========================
+# Terraform
+# =========================
+*.tfstate
+*.tfstate.backup
+.terraform/
+.crash
+override.tf
+override.tf.json
+terraform.tfvars
+
+# =========================
+# Ansible
+# =========================
+*.retry
+*.vault_pass
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.iml
